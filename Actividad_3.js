@@ -31,6 +31,8 @@ if (personaA=='piedra' && personaB=='papel'){
     console.log('Gana la persona A')
 } else if (personaA===personaB){
     console.log('Esto es un empate')
+} else{
+    console.log('Esto no es TBBT, lleva tu lagarto a otra parte')
 }
 
 //Problema 2 versión explorador
@@ -51,5 +53,7 @@ if (personaA=='piedra'&&personaB=='papel'){
     alert('Gana la persona A')
 } else if (personaA===personaB){
     alert('Esto es un empate')
+} else{
+    alert('Esto no es TBBT, lleva tu lagarto a otra parte')
 }
 
